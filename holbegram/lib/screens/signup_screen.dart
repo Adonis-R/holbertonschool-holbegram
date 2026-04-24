@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import '../widgets/text_field.dart';
 import 'login_screen.dart';
 import 'upload_image_screen.dart';
@@ -190,5 +191,19 @@ class _SignUpState extends State<SignUp> {
         ),
       ),
     );
+=======
+
+class SignupScreen extends StatefulWidget {
+  const SignupScreen({super.key});
+
+  @override
+  State<SignupScreen> createState() => _SignupScreenState();
+}
+
+class _SignupScreenState extends State<SignupScreen> {
+  @override
+  Widget build(BuildContext context) {
+    return const Scaffold();
+>>>>>>> 547627aefdd50b9e4ab77b8d40332e1c71198ec8
   }
 }

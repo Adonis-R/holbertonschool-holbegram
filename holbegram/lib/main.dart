@@ -7,11 +7,17 @@ import 'providers/user_provider.dart';
 import 'screens/login_screen.dart';
 import 'screens/home.dart';
 
+<<<<<<< HEAD
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
+=======
+Future main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+>>>>>>> 547627aefdd50b9e4ab77b8d40332e1c71198ec8
   runApp(const MyApp());
 }
 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
@@ -144,5 +145,20 @@ class _AddPictureState extends State<AddPicture> {
         ),
       ),
     );
+=======
+import 'package:flutter/material.dart';
+
+class UploadImageScreen extends StatefulWidget {
+  const UploadImageScreen({super.key});
+
+  @override
+  State<UploadImageScreen> createState() => _UploadImageScreenState();
+}
+
+class _UploadImageScreenState extends State<UploadImageScreen> {
+  @override
+  Widget build(BuildContext context) {
+    return const Scaffold();
+>>>>>>> 547627aefdd50b9e4ab77b8d40332e1c71198ec8
   }
 }

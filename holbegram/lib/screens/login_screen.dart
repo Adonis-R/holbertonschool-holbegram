@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import '../widgets/text_field.dart';
 import '../methods/auth_methods.dart';
 import 'signup_screen.dart';
@@ -12,12 +13,18 @@ class LoginScreen extends StatefulWidget {
     required this.emailController,
     required this.passwordController,
   });
+=======
+
+class LoginScreen extends StatefulWidget {
+  const LoginScreen({super.key});
+>>>>>>> 547627aefdd50b9e4ab77b8d40332e1c71198ec8
 
   @override
   State<LoginScreen> createState() => _LoginScreenState();
 }
 
 class _LoginScreenState extends State<LoginScreen> {
+<<<<<<< HEAD
   late bool _passwordVisible;
 
   @override
@@ -196,5 +203,10 @@ class _LoginScreenState extends State<LoginScreen> {
         ),
       ),
     );
+=======
+  @override
+  Widget build(BuildContext context) {
+    return const Scaffold();
+>>>>>>> 547627aefdd50b9e4ab77b8d40332e1c71198ec8
   }
 }

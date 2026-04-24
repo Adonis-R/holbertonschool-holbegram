@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+<<<<<<< HEAD
 class TextFieldInput extends StatelessWidget {
   final TextEditingController controller;
   final bool ispassword;
@@ -40,5 +41,13 @@ class TextFieldInput extends StatelessWidget {
       textInputAction: TextInputAction.next,
       obscureText: ispassword,
     );
+=======
+class CustomTextField extends StatelessWidget {
+  const CustomTextField({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const TextField();
+>>>>>>> 547627aefdd50b9e4ab77b8d40332e1c71198ec8
   }
 }
